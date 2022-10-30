@@ -1,5 +1,5 @@
 const setResponseBody = (
-  err = { message: "Soemthing Went Wrong!" },
+  err = { message: "Something Went Wrong!" },
   results = null
 ) => ({
   success: err ? false : true,
